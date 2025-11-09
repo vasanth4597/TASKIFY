@@ -1,53 +1,19 @@
-.home,
-.home * {
+.android-compact-2,
+.android-compact-2 * {
   box-sizing: border-box;
 }
-.home {
+.android-compact-2 {
   background: #ffffff;
   height: 917px;
   position: relative;
   overflow: hidden;
 }
-.rectangle-12 {
-  background: #ffffff;
-  border-radius: 15px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 2px;
-  width: 366px;
-  height: 378px;
-  position: absolute;
-  left: 15px;
-  top: 168px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.ai-assistant {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  position: absolute;
-  left: 63px;
-  top: 422px;
-}
-.settings {
-  color: #000000;
-  text-align: center;
-  font-family: "InriaSerif-Regular", sans-serif;
-  font-size: 13px;
-  letter-spacing: -0.3px;
-  font-weight: 400;
-  position: absolute;
-  left: 63px;
-  top: 383px;
-}
 .bars-status-bar-i-phone-x {
   width: 412px;
   height: 48px;
   position: absolute;
-  left: -7px;
-  top: 3px;
+  left: 0px;
+  top: 0px;
   overflow: hidden;
 }
 .background {
@@ -105,40 +71,28 @@
   top: 50%;
   translate: 0 -50%;
 }
-.lucide-triangle {
-  width: 24px;
-  height: 24px;
+.group-16 {
+  height: auto;
   position: absolute;
-  left: 18px;
-  top: 907px;
-  transform: translate(0px, -24px);
+  left: 20px;
+  top: 881px;
   overflow: visible;
-  aspect-ratio: 1;
 }
-.material-symbols-menu-rounded {
-  width: 24px;
-  height: 24px;
+.group-14 {
   position: absolute;
-  left: 369px;
-  top: 883px;
-  overflow: visible;
-  aspect-ratio: 1;
+  inset: 0;
 }
-.mynaui-square {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 191px;
-  top: 883px;
-  overflow: visible;
-  aspect-ratio: 1;
+.group-7 {
+  width: 259px;
+  height: 94px;
+  position: static;
 }
 .teenyicons-shield-tick-solid {
   width: 27px;
   height: 27px;
   position: absolute;
-  left: 90px;
-  top: 75px;
+  left: 73px;
+  top: 93px;
   overflow: visible;
   aspect-ratio: 1;
 }
@@ -150,8 +104,8 @@
   line-height: 120.09%;
   font-weight: 400;
   position: absolute;
-  left: calc(50% - 68px);
-  top: 63px;
+  left: calc(50% - 84px);
+  top: 81px;
 }
 .organize-prioritize-and-accomplish-your-goals-with-ai-assistance {
   color: #000000;
@@ -162,124 +116,164 @@
   font-weight: 400;
   opacity: 0.4;
   position: absolute;
-  left: 81px;
-  top: 123px;
+  left: 64px;
+  top: 141px;
 }
-.tdesign-menu {
+.ep-arrow-left-bold {
   width: 24px;
   height: 24px;
   position: absolute;
-  left: 27px;
-  top: 305px;
-  aspect-ratio: 1;
-}
-.group {
-  width: 75%;
-  height: 75%;
-  position: absolute;
-  right: 12.5%;
-  left: 12.5%;
-  bottom: 12.5%;
-  top: 12.5%;
-  overflow: visible;
-}
-.f-7-menu {
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  left: 23px;
-  top: 266px;
+  left: 29px;
+  top: 215px;
   overflow: visible;
   aspect-ratio: 1;
 }
-.my-tasks {
-  color: #000000;
-  text-align: center;
-  font-family: "InriaSerif-Regular", sans-serif;
-  font-size: 14px;
-  letter-spacing: -0.3px;
-  font-weight: 400;
-  position: absolute;
-  left: 63px;
-  top: 271px;
-}
-.rivet-icons-inbox {
-  width: 16px;
-  height: 16px;
-  position: absolute;
-  left: 27px;
-  top: 239px;
-  overflow: visible;
-  aspect-ratio: 1;
-}
-.inbox {
-  color: #000000;
-  text-align: center;
-  font-family: "InriaSerif-Regular", sans-serif;
-  font-size: 14px;
-  letter-spacing: -0.3px;
-  font-weight: 400;
-  position: absolute;
-  left: 63px;
-  top: 238px;
-}
-.vector {
-  width: 4.85%;
-  height: 2.18%;
-  position: absolute;
-  right: 88.11%;
-  left: 7.04%;
-  bottom: 60.74%;
-  top: 37.08%;
-  overflow: visible;
-}
-.task-master {
+.enter-verification-code {
   color: #000000;
   text-align: center;
   font-family: "InriaSerif-Bold", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: -0.3px;
   font-weight: 700;
   position: absolute;
-  left: 27px;
-  top: 191px;
+  left: 91px;
+  top: 213px;
 }
-.projects {
-  color: #000000;
-  text-align: center;
-  font-family: "InriaSerif-Regular", sans-serif;
-  font-size: 14px;
-  letter-spacing: -0.3px;
-  font-weight: 400;
-  position: absolute;
-  left: 63px;
-  top: 308px;
-}
-.calendar {
-  color: #000000;
-  text-align: center;
-  font-family: "InriaSerif-Regular", sans-serif;
-  font-size: 14px;
-  letter-spacing: -0.3px;
-  font-weight: 400;
-  position: absolute;
-  left: 61px;
-  top: 343px;
-}
-.group-5 {
+.group-15 {
   position: absolute;
   inset: 0;
 }
-.rectangle-11 {
-  background: #115ef7;
-  border-radius: 15px;
-  width: 290px;
-  height: 48px;
+.ellipse-1 {
+  background: #ffffff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #999999;
+  border-width: 2px;
+  width: 50px;
+  height: 50px;
   position: absolute;
-  left: 66px;
-  top: 613px;
+  left: 57px;
+  top: 255px;
 }
-.new-task {
+.ellipse-2 {
+  background: #ffffff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #999999;
+  border-width: 2px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 132px;
+  top: 255px;
+}
+.ellipse-3 {
+  background: #ffffff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #999999;
+  border-width: 2px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 207px;
+  top: 255px;
+}
+.ellipse-4 {
+  background: #ffffff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #999999;
+  border-width: 2px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 282px;
+  top: 255px;
+}
+._8 {
+  color: #999999;
+  text-align: center;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+  font-weight: 700;
+  position: absolute;
+  left: 149px;
+  top: 267px;
+}
+._3 {
+  color: #999999;
+  text-align: center;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+  font-weight: 700;
+  position: absolute;
+  left: 226px;
+  top: 267px;
+}
+._9 {
+  color: #999999;
+  text-align: center;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+  font-weight: 400;
+  position: absolute;
+  left: 301px;
+  top: 267px;
+}
+._4 {
+  color: #999999;
+  text-align: center;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+  font-weight: 700;
+  position: absolute;
+  left: 76px;
+  top: 268px;
+}
+.if-you-didn-t-receive-a-code-resend {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 328px;
+}
+.if-you-didn-t-receive-a-code-resend-span {
+  color: #999999;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: -0.3px;
+  font-weight: 400;
+}
+.if-you-didn-t-receive-a-code-resend-span2 {
+  color: #000000;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+  font-weight: 700;
+}
+.if-you-didn-t-receive-a-code-resend-span3 {
+  color: #115ef7;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  font-weight: 700;
+}
+.rectangle-26 {
+  border-radius: 0px;
+  width: 322px;
+  height: 58px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 401px;
+  overflow: visible;
+}
+.verify {
   color: #ffffff;
   text-align: center;
   font-family: "InriaSerif-Bold", sans-serif;
@@ -287,59 +281,7 @@
   letter-spacing: -0.3px;
   font-weight: 700;
   position: absolute;
-  left: 160px;
-  top: 625px;
-}
-.lets-icons-setting-line {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 29px;
-  top: 379px;
-  overflow: visible;
-  aspect-ratio: 1;
-}
-.rectangle-13 {
-  background: #ffffff;
-  border-radius: 8px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 2px;
-  width: 162px;
-  height: 34px;
-  position: absolute;
-  left: 44px;
-  top: 721px;
-}
-.active-2 {
-  color: #000000;
-  text-align: center;
-  font-family: "InriaSerif-Bold", sans-serif;
-  font-size: 13px;
-  letter-spacing: -0.3px;
-  font-weight: 700;
-  position: absolute;
-  left: 93px;
-  top: 730px;
-}
-.completed-0 {
-  color: #000000;
-  text-align: center;
-  font-family: "InriaSerif-Bold", sans-serif;
-  font-size: 13px;
-  letter-spacing: -0.3px;
-  font-weight: 700;
-  position: absolute;
-  left: 262px;
-  top: 730px;
-}
-.vector2 {
-  width: 6.8%;
-  height: 2.84%;
-  position: absolute;
-  right: 86.17%;
-  left: 7.04%;
-  bottom: 51.69%;
-  top: 45.47%;
-  overflow: visible;
+  left: 50%;
+  translate: -50%;
+  top: 418px;
 }
