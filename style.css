@@ -1,0 +1,263 @@
+.welcome,
+.welcome * {
+  box-sizing: border-box;
+}
+.welcome {
+  background: #ffffff;
+  height: 917px;
+  position: relative;
+  overflow: hidden;
+}
+.welcome-to-taskify {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 45px;
+  top: 244px;
+  width: 133px;
+  height: 79px;
+}
+.login-to-your-account {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Thin", sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  position: absolute;
+  left: 43px;
+  top: 355px;
+}
+.vector {
+  width: 536px;
+  height: 211px;
+  position: absolute;
+  left: 536px;
+  top: 211px;
+  transform: translate(-536px, -211px);
+  overflow: visible;
+}
+.taskify {
+  color: #fff7f7;
+  text-align: left;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 40px;
+  line-height: 120.09%;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 78px);
+  top: 63px;
+}
+.bars-status-bar-i-phone-x {
+  width: 412px;
+  height: 48px;
+  position: absolute;
+  left: 0px;
+  top: -5px;
+  overflow: hidden;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.battery {
+  height: auto;
+  position: absolute;
+  left: 373px;
+  top: 20px;
+  overflow: visible;
+}
+.wifi {
+  width: 16.78px;
+  height: 11.96px;
+  position: absolute;
+  left: 346.84px;
+  top: 18.91px;
+  overflow: visible;
+}
+.mobile-signal {
+  width: 18.68px;
+  height: 11.64px;
+  position: absolute;
+  left: 322.64px;
+  top: 19.27px;
+  overflow: visible;
+}
+.time-style {
+  width: 14.4%;
+  height: 40.91%;
+  position: absolute;
+  right: 80%;
+  left: 5.6%;
+  bottom: 27.27%;
+  top: 31.82%;
+  overflow: hidden;
+}
+._9-41 {
+  color: #171717;
+  text-align: center;
+  font-family: "SfProText-Semibold", sans-serif;
+  font-size: 15px;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+  position: absolute;
+  right: 0.33px;
+  left: 0px;
+  top: 50%;
+  translate: 0 -50%;
+}
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+.group-2 {
+  width: 269px;
+  height: 57px;
+  position: static;
+}
+.group-1 {
+  width: 269px;
+  height: 57px;
+  position: static;
+}
+.rectangle-1 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #221f1f;
+  border-width: 2px;
+  width: 269px;
+  height: 57px;
+  position: absolute;
+  left: 72px;
+  top: 402px;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-12 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #221f1f;
+  border-width: 2px;
+  width: 269px;
+  height: 57px;
+  position: absolute;
+  left: 72px;
+  top: 492px;
+}
+.password {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 90px;
+  top: 513px;
+}
+.basil-eye-closed-solid {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 292px;
+  top: 509px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.email-address {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 87px;
+  top: 423px;
+}
+.rectangle-2 {
+  background: #115ef7;
+  border-radius: 10px;
+  width: 320px;
+  height: 49px;
+  position: absolute;
+  left: 50px;
+  top: 662px;
+}
+.login {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 675px;
+}
+.don-t-have-account-sign-up {
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 108px;
+  top: 765px;
+}
+.don-t-have-account-sign-up-span {
+  color: #000000;
+  font-family: "Inter-Light", sans-serif;
+  font-weight: 300;
+}
+.don-t-have-account-sign-up-span2 {
+  color: #115ef7;
+  font-family: "Inter-Medium", sans-serif;
+  font-weight: 500;
+}
+.forget-password {
+  color: #115ef7;
+  text-align: left;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 195px;
+  top: 569px;
+}
+.lucide-triangle {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 19px;
+  top: 904px;
+  transform: translate(0px, -24px);
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.material-symbols-menu-rounded {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 370px;
+  top: 880px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.mynaui-square {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 192px;
+  top: 880px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
