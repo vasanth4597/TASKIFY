@@ -1,61 +1,53 @@
-.welcome,
-.welcome * {
+.home,
+.home * {
   box-sizing: border-box;
 }
-.welcome {
+.home {
   background: #ffffff;
   height: 917px;
   position: relative;
   overflow: hidden;
 }
-.welcome-to-taskify {
-  color: #000000;
-  text-align: left;
-  font-family: "InriaSerif-Bold", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
+.rectangle-12 {
+  background: #ffffff;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  width: 366px;
+  height: 378px;
   position: absolute;
-  left: 45px;
-  top: 244px;
-  width: 133px;
-  height: 79px;
+  left: 15px;
+  top: 168px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.login-to-your-account {
+.ai-assistant {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Thin", sans-serif;
+  font-family: "Inter-Regular", sans-serif;
   font-size: 12px;
-  font-weight: 100;
-  position: absolute;
-  left: 43px;
-  top: 355px;
-}
-.vector {
-  width: 536px;
-  height: 211px;
-  position: absolute;
-  left: 536px;
-  top: 211px;
-  transform: translate(-536px, -211px);
-  overflow: visible;
-}
-.taskify {
-  color: #fff7f7;
-  text-align: left;
-  font-family: "InriaSerif-Regular", sans-serif;
-  font-size: 40px;
-  line-height: 120.09%;
   font-weight: 400;
   position: absolute;
-  left: calc(50% - 78px);
-  top: 63px;
+  left: 63px;
+  top: 422px;
+}
+.settings {
+  color: #000000;
+  text-align: center;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  font-weight: 400;
+  position: absolute;
+  left: 63px;
+  top: 383px;
 }
 .bars-status-bar-i-phone-x {
   width: 412px;
   height: 48px;
   position: absolute;
-  left: 0px;
-  top: -5px;
+  left: -7px;
+  top: 3px;
   overflow: hidden;
 }
 .background {
@@ -113,132 +105,12 @@
   top: 50%;
   translate: 0 -50%;
 }
-.group-3 {
-  position: absolute;
-  inset: 0;
-}
-.group-2 {
-  width: 269px;
-  height: 57px;
-  position: static;
-}
-.group-1 {
-  width: 269px;
-  height: 57px;
-  position: static;
-}
-.rectangle-1 {
-  background: #ffffff;
-  border-radius: 8px;
-  border-style: solid;
-  border-color: #221f1f;
-  border-width: 2px;
-  width: 269px;
-  height: 57px;
-  position: absolute;
-  left: 72px;
-  top: 402px;
-}
-.group-4 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-12 {
-  background: #ffffff;
-  border-radius: 8px;
-  border-style: solid;
-  border-color: #221f1f;
-  border-width: 2px;
-  width: 269px;
-  height: 57px;
-  position: absolute;
-  left: 72px;
-  top: 492px;
-}
-.password {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  position: absolute;
-  left: 90px;
-  top: 513px;
-}
-.basil-eye-closed-solid {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 292px;
-  top: 509px;
-  overflow: visible;
-  aspect-ratio: 1;
-}
-.email-address {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  position: absolute;
-  left: 87px;
-  top: 423px;
-}
-.rectangle-2 {
-  background: #115ef7;
-  border-radius: 10px;
-  width: 320px;
-  height: 49px;
-  position: absolute;
-  left: 50px;
-  top: 662px;
-}
-.login {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  position: absolute;
-  left: 50%;
-  translate: -50%;
-  top: 675px;
-}
-.don-t-have-account-sign-up {
-  text-align: center;
-  font-family: "-", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  position: absolute;
-  left: 108px;
-  top: 765px;
-}
-.don-t-have-account-sign-up-span {
-  color: #000000;
-  font-family: "Inter-Light", sans-serif;
-  font-weight: 300;
-}
-.don-t-have-account-sign-up-span2 {
-  color: #115ef7;
-  font-family: "Inter-Medium", sans-serif;
-  font-weight: 500;
-}
-.forget-password {
-  color: #115ef7;
-  text-align: left;
-  font-family: "InriaSerif-Regular", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  position: absolute;
-  left: 195px;
-  top: 569px;
-}
 .lucide-triangle {
   width: 24px;
   height: 24px;
   position: absolute;
-  left: 19px;
-  top: 904px;
+  left: 18px;
+  top: 907px;
   transform: translate(0px, -24px);
   overflow: visible;
   aspect-ratio: 1;
@@ -247,8 +119,8 @@
   width: 24px;
   height: 24px;
   position: absolute;
-  left: 370px;
-  top: 880px;
+  left: 369px;
+  top: 883px;
   overflow: visible;
   aspect-ratio: 1;
 }
@@ -256,8 +128,218 @@
   width: 24px;
   height: 24px;
   position: absolute;
-  left: 192px;
-  top: 880px;
+  left: 191px;
+  top: 883px;
   overflow: visible;
   aspect-ratio: 1;
+}
+.teenyicons-shield-tick-solid {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: 90px;
+  top: 75px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.taskify {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 40px;
+  line-height: 120.09%;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 68px);
+  top: 63px;
+}
+.organize-prioritize-and-accomplish-your-goals-with-ai-assistance {
+  color: #000000;
+  text-align: center;
+  font-family: "Inika-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 120.09%;
+  font-weight: 400;
+  opacity: 0.4;
+  position: absolute;
+  left: 81px;
+  top: 123px;
+}
+.tdesign-menu {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 27px;
+  top: 305px;
+  aspect-ratio: 1;
+}
+.group {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+.f-7-menu {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 23px;
+  top: 266px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.my-tasks {
+  color: #000000;
+  text-align: center;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  font-weight: 400;
+  position: absolute;
+  left: 63px;
+  top: 271px;
+}
+.rivet-icons-inbox {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 27px;
+  top: 239px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.inbox {
+  color: #000000;
+  text-align: center;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  font-weight: 400;
+  position: absolute;
+  left: 63px;
+  top: 238px;
+}
+.vector {
+  width: 4.85%;
+  height: 2.18%;
+  position: absolute;
+  right: 88.11%;
+  left: 7.04%;
+  bottom: 60.74%;
+  top: 37.08%;
+  overflow: visible;
+}
+.task-master {
+  color: #000000;
+  text-align: center;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 15px;
+  letter-spacing: -0.3px;
+  font-weight: 700;
+  position: absolute;
+  left: 27px;
+  top: 191px;
+}
+.projects {
+  color: #000000;
+  text-align: center;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  font-weight: 400;
+  position: absolute;
+  left: 63px;
+  top: 308px;
+}
+.calendar {
+  color: #000000;
+  text-align: center;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  font-weight: 400;
+  position: absolute;
+  left: 61px;
+  top: 343px;
+}
+.group-5 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-11 {
+  background: #115ef7;
+  border-radius: 15px;
+  width: 290px;
+  height: 48px;
+  position: absolute;
+  left: 66px;
+  top: 613px;
+}
+.new-task {
+  color: #ffffff;
+  text-align: center;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+  font-weight: 700;
+  position: absolute;
+  left: 160px;
+  top: 625px;
+}
+.lets-icons-setting-line {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 29px;
+  top: 379px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.rectangle-13 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  width: 162px;
+  height: 34px;
+  position: absolute;
+  left: 44px;
+  top: 721px;
+}
+.active-2 {
+  color: #000000;
+  text-align: center;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  font-weight: 700;
+  position: absolute;
+  left: 93px;
+  top: 730px;
+}
+.completed-0 {
+  color: #000000;
+  text-align: center;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  font-weight: 700;
+  position: absolute;
+  left: 262px;
+  top: 730px;
+}
+.vector2 {
+  width: 6.8%;
+  height: 2.84%;
+  position: absolute;
+  right: 86.17%;
+  left: 7.04%;
+  bottom: 51.69%;
+  top: 45.47%;
+  overflow: visible;
 }
